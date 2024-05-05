@@ -1,0 +1,10 @@
+12,Mevcut
+4,Mevcut
+6,Mevcut
+7,Mevcut
+1,Mevcut
+12,Mevcut
+4,Mevcut
+15,Mevcut
+7,Mevcut
+4,Mevcut
