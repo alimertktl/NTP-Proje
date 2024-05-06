@@ -321,6 +321,22 @@ class Ui_MainWindow(object):
 "}\n"
 "")
         self.pushButton_5.setObjectName("pushButton_5")
+        self.pushButton_6 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_6.setGeometry(QtCore.QRect(910, 560, 171, 41))
+        font = QtGui.QFont()
+        font.setFamily("Cascadia Code SemiBold")
+        font.setPointSize(12)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButton_6.setFont(font)
+        self.pushButton_6.setStyleSheet("\n"
+"QPushButton{\n"
+"color:white;\n"
+"    background-color: rgb(125, 117, 116);\n"
+"border-radius:10;}\n"
+"QPushButton::hover{background-color: rgb(0, 34, 53);\n"
+"}")
+        self.pushButton_6.setObjectName("pushButton_6")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1235, 26))
@@ -353,6 +369,7 @@ class Ui_MainWindow(object):
         self.lineEdit_10.setPlaceholderText(_translate("MainWindow", "Satış Numarası"))
         self.label_5.setText(_translate("MainWindow", "Satış Ekleme"))
         self.pushButton_5.setText(_translate("MainWindow", "Satış Ekle"))
+        self.pushButton_6.setText(_translate("MainWindow", "Bilgiler"))
 
 
 if __name__ == "__main__":

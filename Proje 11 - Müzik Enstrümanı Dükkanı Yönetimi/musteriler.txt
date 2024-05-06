@@ -1,2 +1,12 @@
 ilayda,055555,var
-xs,cfdsf,asdfsad
+df,vf,fv
+ilayda,05555,yok
+iayda,0333,yok
+ÝLAYDA,VDF,VDF
+C,C,C
+F,F,F
+dneme,denem,deneme
+v,v,v
+ilayda,0333,yok
+ilayda,022,var
+ilayda,1111,yok

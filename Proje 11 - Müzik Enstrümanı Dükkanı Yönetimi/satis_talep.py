@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(2197, 913)
+        MainWindow.resize(1353, 734)
         MainWindow.setStyleSheet("#centralwidget{background-color: rgb(127, 153, 255);}\n"
 "\n"
 "\n"
@@ -169,7 +169,7 @@ class Ui_MainWindow(object):
         self.tableWidget_3.setHorizontalHeaderItem(2, item)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 2197, 26))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1353, 26))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -199,11 +199,11 @@ class Ui_MainWindow(object):
         item = self.tableWidget.verticalHeaderItem(7)
         item.setText(_translate("MainWindow", "8"))
         item = self.tableWidget.horizontalHeaderItem(0)
-        item.setText(_translate("MainWindow", "Ürün Adı"))
-        item = self.tableWidget.horizontalHeaderItem(1)
-        item.setText(_translate("MainWindow", "Ürün Kodu"))
-        item = self.tableWidget.horizontalHeaderItem(2)
         item.setText(_translate("MainWindow", "Satış Numarası"))
+        item = self.tableWidget.horizontalHeaderItem(1)
+        item.setText(_translate("MainWindow", "Ürün Adı"))
+        item = self.tableWidget.horizontalHeaderItem(2)
+        item.setText(_translate("MainWindow", "Ürün Kodu"))
         self.label_2.setText(_translate("MainWindow", "Satışlar"))
         self.label_3.setText(_translate("MainWindow", "Destek Talepleri"))
         item = self.tableWidget_2.verticalHeaderItem(0)
@@ -251,9 +251,9 @@ class Ui_MainWindow(object):
         item = self.tableWidget_3.horizontalHeaderItem(0)
         item.setText(_translate("MainWindow", "Müşteri Adı"))
         item = self.tableWidget_3.horizontalHeaderItem(1)
-        item.setText(_translate("MainWindow", "Aldığı Enstürman"))
+        item.setText(_translate("MainWindow", "Müşteri İletişim Bilgisi"))
         item = self.tableWidget_3.horizontalHeaderItem(2)
-        item.setText(_translate("MainWindow", "Müşteri Numarası"))
+        item.setText(_translate("MainWindow", "Müşteri Sipariş Geçmişi"))
 
 
 if __name__ == "__main__":
